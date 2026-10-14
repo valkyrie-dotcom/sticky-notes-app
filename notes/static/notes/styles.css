@@ -1,0 +1,45 @@
+/* notes/static/notes/styles.css */
+
+body {
+  font-family: "Arial", sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+main {
+  margin: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Sticky note styling */
+li {
+  background-color: #fff176;
+  padding: 15px;
+  max-width: 300px;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+li a {
+  font-weight: bold;
+  color: #333;
+}
